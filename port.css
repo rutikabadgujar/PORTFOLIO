@@ -1,0 +1,233 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+#head{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color:black;
+}
+#headone{
+    border: 1px solid black;
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+}
+#headtwo{
+    border: 1px solid black;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    
+}
+
+.port{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    padding: 4px;
+   
+}
+.about{
+    width:50px ;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.home{
+    width: 64px;
+    height: 30px;
+    text-decoration: none;
+    padding: 4px;
+}
+.services{
+    width: 64px;
+    height: 30px;
+    text-decoration: none;
+    padding: 4px;
+}
+.project{
+    width: 64px;
+    height: 30px;
+    text-decoration: none;
+    padding: 4px;
+}
+#clr{
+    color:red;
+}
+/* 2ndpart */
+#parttwo{
+    border: 1px solid black;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color:skyblue;
+}
+#text{
+    border: 1px solid black;
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column ;
+}
+#image{
+    border: 1px solid black;
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+#coderimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    
+}
+.me{
+    font-size: 30px;
+    width: 300px;
+    align-items: center;
+    line-height: normal;
+}
+.minihead{
+    color:black;
+    text-decoration: none;
+   
+}
+.minihead:hover{
+    color:skyblue;
+}
+/* aboutus */
+#aboutus{
+    border: 1px solid ;
+    width: 100%;
+    height: 400px;
+    background-color:skyblue;
+   
+}
+
+#abtline{
+    margin-left: 350px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+#serviceline{
+    margin-left: 350px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+#services1{
+    border: 1px solid ;
+    width: 100%;
+    height: 400px;
+    background-color:skyblue;
+}
+#serviceshead1{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+#serviceshead2{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+#serviceshead3{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+#serviceshead4{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+/* skill */
+#skill {
+    background-color: skyblue;
+    border: 1px solid black;
+    height: 400px;
+  }
+  #skill .skill--content {
+    display: block;
+  }
+  @media screen and (min-width: 768px) {
+    #skill .skill--content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+  }
+  #skill .skill--content .left {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  #skill .skill--content .left h2 {
+    font-size: 36px;
+    color: #222;
+  }
+  #skill .skill--content .right {
+    -ms-flex-preferred-size: 65%;
+        flex-basis: 65%;
+    display: block;
+  }
+  @media screen and (min-width: 768px) {
+    #skill .skill--content .right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+  }
+  #skill .skill--content .right .item {
+    -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+    text-align: center;
+    border: 1px solid #222;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    border-width: 5px 5px 5px 5px;
+    -o-border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+       border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+    border-image-slice: 9;
+    border-style: solid;
+  }
+  @media screen and (min-width: 768px) {
+    #skill .skill--content .right .item {
+      margin-bottom: 0;
+    }
+  }
+  #skill .skill--content .right .item img {
+    max-width: 100px;
+    height: auto;
+  }
